@@ -1,0 +1,44 @@
+[
+  {
+    "id": "51744070-ba85-11e8-9576-93ce04529313",
+    "title": "Introducing the React Profiler",
+    "content": "React 16.5 adds support for a new DevTools profiler plugin. This plugin uses React’s experimental Profiler API to collect timing information about each component that’s rendered in order to identify performance bottlenecks in React applications. It will be fully compatible with our upcoming time slicing and suspense features.",
+    "created_at": "10 September 2018",
+    "author": "Brian Vaughn"
+  },
+  {
+    "id": "9fa94f10-ba85-11e8-b9ad-8b2c27b11e58",
+    "title": "React v16.4.2: Server-side vulnerability fix",
+    "content": "We discovered a minor vulnerability that might affect some apps using ReactDOMServer. We are releasing a patch version for every affected React minor release so that you can upgrade with no friction. Read on for more details.",
+    "created_at": "01 August 2018",
+    "author": "Dan Abramov"
+  },
+  {
+    "id": "caccb470-ba85-11e8-8009-4d7f0fa836f2",
+    "title": "You Probably Don't Need Derived State",
+    "content": "React 16.4 included a bugfix for getDerivedStateFromProps which caused some existing bugs in React components to reproduce more consistently. If this release exposed a case where your application was using an anti-pattern and didn’t work properly after the fix, we’re sorry for the churn. In this post, we will explain some common anti-patterns with derived state and our preferred alternatives.",
+    "created_at": "01 August 2018",
+    "author": "Brian Vaughn"
+  },
+  {
+    "id": "0fb84a40-ba86-11e8-9098-efb5aa36f128",
+    "title": "React v16.4.0: Pointer Events",
+    "content": "The latest minor release adds support for an oft-requested feature: pointer events!",
+    "created_at": "23 may 2018",
+    "author": "Andrew Clark"
+  },
+  {
+    "id": "6b939c20-ba86-11e8-be36-854eca6815a1",
+    "title": "React v16.3.0: New lifecycles and context API",
+    "content": "A few days ago, we wrote a post about upcoming changes to our legacy lifecycle methods, including gradual migration strategies. In React 16.3.0, we are adding a few new lifecycle methods to assist with that migration. We are also introducing new APIs for long requested features: an official context API, a ref forwarding API, and an ergonomic ref API.",
+    "created_at": "29 March 2018",
+    "author": "Brian Vaughn"
+  },
+  {
+    "id": "7fae3f30-ba86-11e8-9a88-f550cc317069",
+    "title": "Update on Async Rendering",
+    "content": "For over a year, the React team has been working to implement asynchronous rendering. Last month during his talk at JSConf Iceland, Dan unveiled some of the exciting new possibilities async rendering unlocks. Now we’d like to share with you some of the lessons we’ve learned while working on these features, and some recipes to help prepare your components for async rendering when it launches.",
+    "created_at": "27 March 2018",
+    "author": "Brian Vaughn"
+  }
+]
